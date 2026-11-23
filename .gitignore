@@ -1,0 +1,22 @@
+# Gradle / build output
+build/
+out/
+classes/
+*.log
+build-log.txt
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Gradle wrapper
+.gradle/
+local-repo/
+
+# OS
+Thumbs.db
+.DS_Store
