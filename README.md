@@ -55,16 +55,17 @@
 每个发布版本对应一个独立文件夹，便于更新与回滚：
 
 ```
-open/
 ├── README.md          ← 本文件（总览）
 └── v1.0.0/            ← 1.0.0 版本
-    ├── allowance-1.0.0.jar   ← 可直接使用的成品 jar
+    ├── BUILD.md              ← 构建说明
     ├── build.gradle / settings.gradle / gradle.properties
     └── src/                  ← 完整源码
         └── main/
             ├── java/com/allowance/...
             └── resources/    （neoforge.mods.toml / 语言文件 / pack.mcmeta）
 ```
+
+> 成品 jar 请在仓库的 Releases 页面下载。
 
 ## 从源码构建
 
